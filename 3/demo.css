@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.stage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(67,178,243);
+    overflow: hidden;
+}
+
+.sheep{
+    position: absolute;
+    width: 164px;
+    height: 122px;
+    right: -164px;
+    bottom: 20px;
+    background-image: url(./sheep.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: -webkit-grabbing;
+}
