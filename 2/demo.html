@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DrawingBoard</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id='canvas' width=1000 height=500></canvas>
+        <ul class="btn-list">
+            <li><input type="color" value="colorBoard" id="colorBoard"></li>
+            <li><input type="button" value="clear" id="clear"></li>
+            <li><input type="button" value="erase" id="erase"></li>
+            <li><input type="button" value="back" id="back"></li>
+            <li><input type="range" value="lineRuler" min="1" max="30" id="lineRuler"></li>
+        </ul>
+    </div>
+
+    <script src="./demo.js"></script>
+</body>
+</html>
